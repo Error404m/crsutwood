@@ -1090,3 +1090,96 @@ footer {
         width: 100%;
     }
 }
+
+
+
+
+/* Product Detail Modal - Responsive Fixes */
+@media (max-width: 1200px) {
+    .product-detail-modal {
+        width: 95%;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 968px) {
+    .product-detail-container {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .main-image {
+        height: 350px; /* smaller height on medium screens */
+    }
+
+    .thumbnail-images {
+        justify-content: flex-start;
+        overflow-x: auto;
+    }
+
+    .thumbnail {
+        flex: 0 0 auto; /* prevent shrinking */
+        width: 70px;
+        height: 70px;
+    }
+
+    .product-detail-info h1 {
+        font-size: 2rem;
+    }
+
+    .detail-price {
+        font-size: 1.5rem;
+    }
+
+    .size-option {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .add-to-cart-detail {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .product-detail-modal {
+        padding: 1rem;
+        margin: 3% auto;
+    }
+
+    .main-image {
+        height: 250px;
+    }
+
+    .thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+
+    .product-detail-info h1 {
+        font-size: 1.5rem;
+    }
+
+    .detail-price {
+        font-size: 1.2rem;
+    }
+
+    .size-option {
+        padding: 0.5rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .add-to-cart-detail {
+        padding: 0.9rem;
+        font-size: 0.95rem;
+    }
+}
+
+/* Ensure modal scrolls on small screens */
+.modal-content {
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
