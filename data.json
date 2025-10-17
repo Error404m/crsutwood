@@ -22,7 +22,7 @@
       "care": "Dry clean only",
       "sizes": ["XS", "S", "M", "L", "XL"],
       "category": "Evening Wear",
-      "inStock": false
+      "inStock": true
     },
     {
       "id": 2,
@@ -56,7 +56,7 @@
       "care": "Wipe with soft cloth, avoid water",
       "sizes": ["One Size"],
       "category": "Accessories",
-      "inStock": true
+      "inStock": false
     },
     {
       "id": 4,
