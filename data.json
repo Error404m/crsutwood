@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "title": "The CRUSTWOOD COLLECTION",
+    "description": "Timeless Elegance. Uncompromising Quality.",
+    "tagline": "Luxury Fashion Redefined",
+    "email": "contact@crustwood.com",
+    "phone": "+1 (555) 123-4567"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "Silk Evening Gown",
+      "price": 2599,
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800",
+        "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=800",
+        "https://images.unsplash.com/photo-1585487000160-6ebcfceb0d03?w=800"
+      ],
+      "about": "This exquisite evening gown is meticulously handcrafted from the finest mulberry silk. Each piece takes over 40 hours to create, featuring intricate beadwork and a flowing silhouette that embodies timeless elegance. Perfect for galas, weddings, and sophisticated evening events.",
+      "delivery_by": "5-7 business days",
+      "material": "100% Mulberry Silk",
+      "care": "Dry clean only",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "category": "Evening Wear",
+      "inStock": false
+    },
+    {
+      "id": 2,
+      "name": "Italian Leather Jacket",
+      "price": 1899,
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
+        "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
+        "https://images.unsplash.com/photo-1520975954732-35dd22299614?w=800"
+      ],
+      "about": "Crafted from premium Italian leather, this jacket represents the pinnacle of luxury outerwear. The leather is vegetable-tanned using traditional methods passed down through generations. Features include YKK zippers, quilted lining, and a timeless design that improves with age.",
+      "delivery_by": "3-5 business days",
+      "material": "Italian Leather, Quilted Silk Lining",
+      "care": "Professional leather care recommended",
+      "sizes": ["S", "M", "L", "XL", "XXL"],
+      "category": "Outerwear",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Designer Handbag",
+      "price": 3299,
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
+        "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
+        "https://images.unsplash.com/photo-1591561954557-26941169b49e?w=800"
+      ],
+      "about": "Limited edition designer handbag featuring hand-stitched construction and gold-plated hardware. This piece is part of our exclusive collection with only 100 pieces produced worldwide. Each bag is numbered and comes with a certificate of authenticity.",
+      "delivery_by": "7-10 business days",
+      "material": "Calfskin Leather, 18K Gold Hardware",
+      "care": "Wipe with soft cloth, avoid water",
+      "sizes": ["One Size"],
+      "category": "Accessories",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Cashmere Sweater",
+      "price": 899,
+      "images": [
+        "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800",
+        "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=800"
+      ],
+      "about": "Made from pure Mongolian cashmere, this sweater offers unparalleled softness and warmth. Each piece requires the wool from three goats and undergoes a 14-step manufacturing process. The result is a luxury essential that will last for decades.",
+      "delivery_by": "3-5 business days",
+      "material": "100% Mongolian Cashmere",
+      "care": "Hand wash cold, lay flat to dry",
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "category": "Knitwear",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Bespoke Tailored Suit",
+      "price": 3499,
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800",
+        "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800",
+        "https://images.unsplash.com/photo-1617127365659-c47fa864d8bc?w=800"
+      ],
+      "about": "This bespoke suit is tailored to your exact measurements using Super 150s wool from the finest Italian mills. Includes two in-person fittings to ensure perfect fit. Features hand-stitched lapels, functioning buttonholes, and custom lining options.",
+      "delivery_by": "4-6 weeks (includes fittings)",
+      "material": "Super 150s Italian Wool",
+      "care": "Dry clean only",
+      "sizes": ["Custom Made to Measure"],
+      "category": "Suiting",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Diamond Necklace",
+      "price": 8999,
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800",
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800",
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800"
+      ],
+      "about": "An exquisite piece featuring 5 carats of VS1 clarity diamonds set in 18K white gold. Each diamond is hand-selected and ethically sourced. This necklace is a timeless investment piece that will be treasured for generations.",
+      "delivery_by": "10-14 business days (secure shipping)",
+      "material": "18K White Gold, 5ct VS1 Diamonds",
+      "care": "Professional jewelry cleaning recommended",
+      "sizes": ["Adjustable Chain"],
+      "category": "Fine Jewelry",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Velvet Tuxedo Jacket",
+      "price": 2299,
+      "images": [
+        "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800",
+        "https://images.unsplash.com/photo-1542060748-10c28b62716c?w=800",
+        "https://images.unsplash.com/photo-1560243563-062bfc001d68?w=800"
+      ],
+      "about": "An elegant velvet tuxedo jacket crafted from rich Italian velvet. Perfect for evening galas and black-tie events, it features silk lapels and a precision-tailored fit that embodies understated luxury.",
+      "delivery_by": "5-7 business days",
+      "material": "Italian Velvet, Silk Lapels",
+      "care": "Dry clean only",
+      "sizes": ["S", "M", "L", "XL"],
+      "category": "Formalwear",
+      "inStock": true
+    },
+    {
+      "id": 10,
+      "name": "Handwoven Silk Scarf",
+      "price": 699,
+      "images": [
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800",
+        "https://images.unsplash.com/photo-1553547275-316c7c56ef05?w=800",
+        "https://images.unsplash.com/photo-1562184552-2d8b2c1df7a8?w=800"
+      ],
+      "about": "This handwoven silk scarf is made by artisans using centuries-old techniques. Lightweight and luxurious, it drapes beautifully and adds sophistication to any outfit.",
+      "delivery_by": "3-5 business days",
+      "material": "100% Handwoven Silk",
+      "care": "Dry clean or hand wash cold",
+      "sizes": ["One Size"],
+      "category": "Accessories",
+      "inStock": true
+    },
+    {
+      "id": 11,
+      "name": "Platinum Chronograph Watch",
+      "price": 15999,
+      "images": [
+        "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
+        "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
+        "https://images.unsplash.com/photo-1600185365928-3eafc67a4a63?w=800"
+      ],
+      "about": "An heirloom-quality platinum chronograph featuring Swiss automatic movement, sapphire crystal glass, and crocodile leather strap. Water-resistant up to 100 meters. Limited to 50 pieces globally.",
+      "delivery_by": "7-10 business days (insured shipping)",
+      "material": "Platinum Case, Sapphire Glass, Crocodile Leather",
+      "care": "Wipe with dry cloth, avoid moisture",
+      "sizes": ["One Size"],
+      "category": "Watches",
+      "inStock": true
+    }
+  ],
+  "footer": {
+    "about": "The CRUSTWOOD COLLECTION represents the pinnacle of luxury fashion. Since 2010, we have been crafting exceptional pieces that blend timeless elegance with contemporary design.",
+    "quickLinks": [
+      { "name": "About Us", "url": "#about" },
+      { "name": "Our Collection", "url": "#collection" },
+      { "name": "Size Guide", "url": "#sizes" },
+      { "name": "Care Instructions", "url": "#care" }
+    ],
+    "customerService": [
+      { "name": "Contact Us", "url": "#contact" },
+      { "name": "Shipping & Returns", "url": "#shipping" },
+      { "name": "FAQ", "url": "#faq" },
+      { "name": "Track Order", "url": "#track" }
+    ],
+    "social": [
+      { "name": "Instagram", "url": "#", "icon": "📷" },
+      { "name": "Facebook", "url": "#", "icon": "📘" },
+      { "name": "Twitter", "url": "#", "icon": "🐦" },
+      { "name": "Pinterest", "url": "#", "icon": "📌" }
+    ],
+    "copyright": "© 2025 The CRUSTWOOD COLLECTION. All Rights Reserved.",
+    "tagline": "Luxury Fashion | Premium Quality | Worldwide Shipping"
+  },
+  "coupons": {
+    "LUXURY10": 10,
+    "CRUSTWOOD20": 20,
+    "VIP25": 25,
+    "WELCOME15": 15
+  }
+}
