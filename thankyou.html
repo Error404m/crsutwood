@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You - CRUSTWOOD</title>
+  <link rel="stylesheet" href="thankyou.css">
+</head>
+<body>
+  <div class="thankyou-container">
+    <div class="thankyou-card">
+      <div class="checkmark">&#10003;</div>
+      <h1>Thank you, <span id="thankUsername"></span>!</h1>
+      <p>Your order has been successfully placed.</p>
+      <p class="delivery-date">Expected Delivery: <span id="thankDelivery"></span></p>
+      
+      <div class="address-box">
+        <h2>📦 Shipping Address</h2>
+        <p id="thankAddress"></p>
+      </div>
+
+      <div class="order-summary">
+        <h2>🛍️ Order Summary</h2>
+        <div id="thankOrderItems"></div>
+        <div class="total-line">
+          <span>Total</span>
+          <span id="thankTotal"></span>
+        </div>
+      </div>
+
+      <button class="support-btn" onclick="window.location.href='index.html'">
+        Need Help? Contact Support
+      </button>
+    </div>
+  </div>
+
+  <script>
+    // Retrieve order data from sessionStorage
+    const orderData = JSON.parse(sessionStorage.getItem('lastOrder'));
+
+    if(orderData) {
+      document.getElementById('thankUsername').textContent = orderData.address.name;
+      document.getElementById('thankDelivery').textContent = orderData.deliveryBy;
+
+      const addr = orderData.address;
+      document.getElementById('thankAddress').innerHTML = `
+        ${addr.name}<br>
+        ${addr.addressLine}<br>
+        ${addr.city} - ${addr.pin}<br>
+        Phone: ${addr.phone}
+      `;
+
+      const orderItemsDiv = document.getElementById('thankOrderItems');
+      orderItemsDiv.innerHTML = orderData.items.map(item => `
+        <div class="order-item">
+          <img src="${item.images[0]}" alt="${item.name}">
+          <div>
+            <h3>${item.name}</h3>
+            <p>Size: ${item.size} | Qty: ${item.quantity}</p>
+            <span class="price">₹${(item.price * item.quantity).toLocaleString()}</span>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('thankTotal').textContent = `₹${orderData.total.toLocaleString()}`;
+
+      // Clear sessionStorage to prevent duplicate display
+      sessionStorage.removeItem('lastOrder');
+    }
+  </script>
+</body>
+</html>
