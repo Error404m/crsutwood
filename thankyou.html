@@ -35,38 +35,42 @@
   </div>
 
   <script>
-    // Retrieve order data from sessionStorage
-    const orderData = JSON.parse(sessionStorage.getItem('lastOrder'));
+  // Retrieve order data from sessionStorage
+  const orderData = JSON.parse(sessionStorage.getItem('lastOrder'));
 
-    if(orderData) {
-      document.getElementById('thankUsername').textContent = orderData.address.name;
-      document.getElementById('thankDelivery').textContent = orderData.deliveryBy;
+  // If no order data or missing name, redirect to homepage
+  if (!orderData || !orderData.address || !orderData.address.name) {
+    window.location.href = 'index.html';
+  } else {
+    document.getElementById('thankUsername').textContent = orderData.address.name;
+    document.getElementById('thankDelivery').textContent = orderData.deliveryBy;
 
-      const addr = orderData.address;
-      document.getElementById('thankAddress').innerHTML = `
-        ${addr.name}<br>
-        ${addr.addressLine}<br>
-        ${addr.city} - ${addr.pin}<br>
-        Phone: ${addr.phone}
-      `;
+    const addr = orderData.address;
+    document.getElementById('thankAddress').innerHTML = `
+      ${addr.name}<br>
+      ${addr.addressLine}<br>
+      ${addr.city} - ${addr.pin}<br>
+      Phone: ${addr.phone}
+    `;
 
-      const orderItemsDiv = document.getElementById('thankOrderItems');
-      orderItemsDiv.innerHTML = orderData.items.map(item => `
-        <div class="order-item">
-          <img src="${item.images[0]}" alt="${item.name}">
-          <div>
-            <h3>${item.name}</h3>
-            <p>Size: ${item.size} | Qty: ${item.quantity}</p>
-            <span class="price">₹${(item.price * item.quantity).toLocaleString()}</span>
-          </div>
+    const orderItemsDiv = document.getElementById('thankOrderItems');
+    orderItemsDiv.innerHTML = orderData.items.map(item => `
+      <div class="order-item">
+        <img src="${item.images[0]}" alt="${item.name}">
+        <div>
+          <h3>${item.name}</h3>
+          <p>Size: ${item.size} | Qty: ${item.quantity}</p>
+          <span class="price">₹${(item.price * item.quantity).toLocaleString()}</span>
         </div>
-      `).join('');
+      </div>
+    `).join('');
 
-      document.getElementById('thankTotal').textContent = `₹${orderData.total.toLocaleString()}`;
+    document.getElementById('thankTotal').textContent = `₹${orderData.total.toLocaleString()}`;
 
-      // Clear sessionStorage to prevent duplicate display
-      sessionStorage.removeItem('lastOrder');
-    }
-  </script>
+    // Clear sessionStorage to prevent duplicate display
+    sessionStorage.removeItem('lastOrder');
+  }
+</script>
+
 </body>
 </html>
