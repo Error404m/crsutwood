@@ -4,7 +4,7 @@
     "description": "Timeless Elegance. Uncompromising Quality.",
     "tagline": "Luxury Fashion Redefined",
     "email": "contact@crustwood.com",
-    "phone": "+1 (555) 123-4567"
+    "phone": "+91 8808800947"
   },
   "products": [
     {
@@ -27,7 +27,7 @@
     {
       "id": 2,
       "name": "Italian Leather Jacket",
-      "price": 1899,
+      "price": 123899,
       "images": [
         "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=800",
         "https://images.unsplash.com/photo-1614252369475-531eba835eb1?w=800",
@@ -44,7 +44,7 @@
     {
       "id": 3,
       "name": "Designer Handbag",
-      "price": 3299,
+      "price": 335299,
       "images": [
         "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=800",
         "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800",
@@ -61,7 +61,7 @@
     {
       "id": 4,
       "name": "Cashmere Sweater",
-      "price": 899,
+      "price": 145899,
       "images": [
         "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800",
         "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=800",
@@ -78,7 +78,7 @@
     {
       "id": 5,
       "name": "Bespoke Tailored Suit",
-      "price": 3499,
+      "price": 3546499,
       "images": [
         "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800",
         "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800",
@@ -95,7 +95,7 @@
     {
       "id": 6,
       "name": "Diamond Necklace",
-      "price": 8999,
+      "price": 538999,
       "images": [
         "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800",
         "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800",
@@ -112,7 +112,7 @@
     {
       "id": 7,
       "name": "Velvet Tuxedo Jacket",
-      "price": 2299,
+      "price": 232299,
       "images": [
         "https://images.unsplash.com/photo-1521575107034-e0fa0b594529?w=800",
         "https://images.unsplash.com/photo-1542060748-10c28b62716c?w=800",
@@ -129,7 +129,7 @@
     {
       "id": 10,
       "name": "Handwoven Silk Scarf",
-      "price": 699,
+      "price": 98699,
       "images": [
         "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=800",
         "https://images.unsplash.com/photo-1553547275-316c7c56ef05?w=800",
@@ -146,7 +146,7 @@
     {
       "id": 11,
       "name": "Platinum Chronograph Watch",
-      "price": 15999,
+      "price": 215999,
       "images": [
         "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800",
